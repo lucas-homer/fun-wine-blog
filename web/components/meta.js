@@ -35,7 +35,6 @@ export default function Meta() {
         name="description"
         content={`A blog for fun about the wines that are fun.`}
       />
-      <meta property="og:image" content="/favicon/android-chrome-512x512.png" />
     </Head>
   );
 }

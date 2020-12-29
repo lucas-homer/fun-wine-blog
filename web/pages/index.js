@@ -14,6 +14,10 @@ export default function Index({ allPosts, preview }) {
       <Layout preview={preview}>
         <Head>
           <title>Fun Wine Blog</title>
+          <meta
+            property="og:image"
+            content="/favicon/android-chrome-512x512.png"
+          />
         </Head>
         <Container>
           <Intro />
